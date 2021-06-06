@@ -1,0 +1,55 @@
+$light: #FDFDFD;
+$white: #FFFFFF;
+$light_1: #E4E4E4;
+$main: #0460E9;
+$blue: #2F3CED;
+$danger: #E74C3C;
+$success: #46C63A;
+
+//Tokens
+// Blue
+$main-blue-100: #0052CC;
+$main-blue-90: #0259DA;
+$main-blue-80: #0460E9;
+$main-blue-70: #0D69F1;
+$main-blue-60: #1C76FC;
+$main-blue-50: #3988FE;
+$main-blue-40: #5499FF;
+$main-blue-30: #78AEFF;
+$main-blue-20: #94BFFF;
+$main-blue-10: #DCEAFF;
+
+// Danger
+$main-danger-100: #FC1C1C;
+$main-danger-90: #FE3939;
+$main-danger-80: #FF5454;
+$main-danger-70: #FF7878;
+$main-danger-60: #FF9494;
+$main-danger-50: #FFC2C2;
+
+// Success
+$main-success-100: #11C018;
+$main-success-90: #13D21B;
+$main-success-80: #21DF29;
+$main-success-70: #41EA48;
+$main-success-60: #65F16B;
+$main-success-50: #C8FFCA;
+
+//Dark theme
+$dark: #11142D;
+$dark_1: #1F1F1F;
+$dark_2: #242731;
+$dark_3: #1e2027;
+$grey: #E0E0E0;
+$grey_1: #696969;
+$grey_bg: #f6f7fb;
+
+
+$gr_1: linear-gradient(270deg, #4DC74B 0%, #0052CC 100%);
+$gr_2: linear-gradient(126.11deg, #FB6322 -28.41%, #FFB800 93.02%);;
+$shadow: 0px 1px 5px rgba(0,0,0,.25);
+$shadow_1: 0px 6px 8px $main;
+
+$px: 8px;
+$px_2: abs($px*2);
+$font: 'TT Commons';

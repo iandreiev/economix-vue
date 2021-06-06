@@ -1,0 +1,7 @@
+@mixin transition {
+    transition: .3s linear;
+}
+
+@mixin hover($color, $percent){
+    background-color: darken($color, $percent);
+}

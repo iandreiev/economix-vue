@@ -1,0 +1,38 @@
+.form{
+    &-controller{
+        &-fit{
+            width: fit-content;
+        }
+        &-m{
+            margin: $px;
+
+        }
+        // margin: abs($px*2) 0px;
+        label{
+            font-size: 18px;
+            line-height: 18px;
+            font-weight: 500;
+            color: $dark;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="number"],
+        input[type="url"],
+        input[type="date"],
+        input[type="color"]{
+            border-radius: 4px;
+            padding: $px abs($px*2);
+            font-size: 18px;
+            font-family: $font;
+            width: 100%;
+            @include transition;
+            border: 1px solid $grey;
+            &:focus {
+                outline: none;
+                border: 1px solid $main;
+                color: $dark;
+            }
+        }
+    }
+}
